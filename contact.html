@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light border-bottom">
+        <span class="navbar-text h1"><h1>Collin Christensen</h1></span>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="./index.html">About Me<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link active" href="./contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4 border bg-light">
+        <div class="row">
+            <div class="col mt-2">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Enter your message</label>
+                        <textarea class="form-control" id="message" rows="10" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar w-100 justify-content-center navbar-dark bg-dark footer">
+            <div class="navbar-text">Copyright ©</div>
+    </div>
+</body>
